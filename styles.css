@@ -1,3 +1,68 @@
 body{
-    background-color: red;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.post-header{
+    margin: 10px;
+    padding: 5px;
+}
+
+.avatar{
+    margin: 25px;
+    float: left;
+}
+
+.header-text{
+    width: 300px; 
+    margin: 25px;
+    margin-left: 3px;
+    float: left;
+}
+
+.menu-icon{
+    margin: 25px;
+    margin-left: 0px;
+    float: right;
+}
+
+.header-text > * {
+    margin: 1px;
+}
+
+.post-title{
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+}
+
+.caption-icons{
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.caption-icons > * > *{
+    padding: 5px;
+}
+
+.caption-icons-left{
+float: left;
+
+}
+
+.caption-icons-right{
+    float: right;
+}
+
+.caption-text{
+    padding: 15px;
 }
