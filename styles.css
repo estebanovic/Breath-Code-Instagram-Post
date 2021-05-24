@@ -65,4 +65,5 @@ float: left;
 
 .caption-text{
     padding: 15px;
+    text-align: justify;
 }
